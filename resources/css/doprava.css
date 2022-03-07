@@ -1,0 +1,112 @@
+.kontajner{
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/backgroungimage.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+}
+
+.navigacny_panel{
+    height: 14%;
+    display: flex;
+    align-items: center;
+    }
+
+.logo_menu{    
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    }
+
+.logo_pc{    
+    width: 60px;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    }
+nav{
+    flex: 1;
+    text-align: right;
+
+    }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 65px;
+    position: relative;
+    bottom: 90px;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+    }
+    .riadok{
+    display: flex;
+    height: 70%;
+    align-items: center;
+    }
+    
+    .stlpec {
+    flex-basis: 50%;
+        
+    }
+    .hover {
+    margin-left: 150px;
+        
+    }
+    
+    button {
+    background-color: lightblue;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 2px  1px 5px 1px;
+    background: azure;
+    cursor:pointer; 
+    transition: transform 0.5s;    
+    }
+
+    mriezka{
+        border-radius: 10px;
+        padding: 15px 25px;
+        display: block;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+    }
+    
+    .mriezka1{
+        background-image: url(../images/2021_Photo-deliveryman-van-city-Logo_M02_WIDE.jpg);
+        min-width: 50%;
+        min-height: 60%;
+    }
+    .logo{
+        position: relative;
+        left: 80px;
+        font-size: 35px;
+        color: azure;
+
+    }
+    .tabulka{
+        background-color: azure;
+        margin-right: 200px;
+        margin-bottom: 200px;
+    }
+    h1 {
+        color: azure;
+        font-size: 50px;
+        text-shadow: 5px 3px #000000; 
+    }
+    p {
+        color: aliceblue;
+        font-size: 30px;
+    }
+   
